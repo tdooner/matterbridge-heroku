@@ -34,8 +34,8 @@ Archivers Slack teams.
       build](https://bintray.com/42wim/nightly/Matterbridge/_latestVersion)
       while waiting on the next official release.
   * `DEBUG`. Set to "1" to log all message events across bridges.
-* Auto-deploys `edgi` branch to our heroku app: `edgi-matterbridge`
-* `edgi` branch is protected branch, and changes must go through pull
+* Auto-deploys `master` branch to our heroku app: `edgi-matterbridge`
+* `master` branch is protected branch, and changes must go through pull
   request process.
 * Edit channel bridge config via [`config/config-heroku-template.toml`][config].
 
