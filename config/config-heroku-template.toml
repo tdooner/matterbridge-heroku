@@ -25,6 +25,10 @@ ShowJoinPart=true
 Token="${SLACK_CIVICTECHLONDON_TOKEN}" # real user: patcon
 ShowJoinPart=true
 
+[slack.civictechsj]
+Token="${SLACK_CIVICTECHSJ_TOKEN}" # real user: patcon
+ShowJoinPart=true
+
 [slack.civictechto]
 Token="${SLACK_CIVICTECHTO_TOKEN}" # bot user
 ShowJoinPart=true
@@ -364,6 +368,9 @@ enable=true
   channel="organizing-canada"
   [[gateway.inout]]
   account="slack.civictechlondon"
+  channel="organizing-canada"
+  [[gateway.inout]]
+  account="slack.civictechsj"
   channel="organizing-canada"
   [[gateway.inout]]
   account="slack.civictechto"
