@@ -285,7 +285,7 @@ enable=true
   channel="oc-hacklabto"
 
 [[gateway]]
-name="irc"
+name="hacklabto-irc"
 enable=true
   [[gateway.inout]]
   account="slack.hacklabto"
