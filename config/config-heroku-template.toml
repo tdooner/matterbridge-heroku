@@ -184,7 +184,7 @@ name="oc-civictechto"
 enable=true
   [[gateway.inout]]
   account="slack.civictechto"
-  channel="C2LB1QWL8"
+  channel="ctto-finances"
   [[gateway.inout]]
   account="slack.opencollective"
   channel="oc-civictechto"
