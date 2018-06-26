@@ -275,6 +275,16 @@ enable=true
   channel="operations"
 
 [[gateway]]
+name="hacklabto-onboarding"
+enable=true
+  [[gateway.inout]]
+  account="telegram.hacklabto"
+  channel="-1001317677382"
+  [[gateway.inout]]
+  account="slack.hacklabto"
+  channel="onboarding"
+
+[[gateway]]
 name="opencollective-hacklabto"
 enable=true
   [[gateway.inout]]
