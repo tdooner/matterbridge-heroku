@@ -25,20 +25,4 @@ Archivers Slack teams.
 
 * Required envvars:
   * `MATTERBRIDGE_VERSION`. Use a [matterbridge git tag][git-tags].
-  * `SLACK_<team name>_TOKEN`. See [_Slack bot setup_ documentation][bot-setup].
-* Optional envvars:
-  * `MATTERBRIDGE_URL`. Use this to download the binary from a custom
-    url instead of the tagged release from the official GitHub repo.
-    (Setting this makes `MATTERBRIDGE_VERSION` ignored.)
-    * With caution, you may want to use the [latest nightly matterbridge
-      build](https://bintray.com/42wim/nightly/Matterbridge/_latestVersion)
-      while waiting on the next official release.
-  * `DEBUG`. Set to "1" to log all message events across bridges.
-* Auto-deploys `master` branch to our heroku app: `edgi-matterbridge`
-* `master` branch is protected branch, and changes must go through pull
-  request process.
-* Edit channel bridge config via [`config/config-heroku-template.toml`][config].
-
-   [bot-setup]: https://github.com/42wim/matterbridge/wiki/Slack-bot-setup
-   [git-tags]: https://github.com/42wim/matterbridge/tags
-   [config]: config/config-heroku-template.toml
+  * `MATTERBRIDGE_SLACK_<team name>_TOKEN`. See [_Slack bot setup_ documentation][bot-setup].

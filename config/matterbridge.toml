@@ -1,0 +1,19 @@
+[slack.cfa]
+Token = ""        # Override with MATTERBRIDGE_SLACK_CFA_TOKEN
+
+[slack.openoakland]
+Token = ""        # Override with MATTERBRIDGE_SLACK_OPENOAKLAND_TOKEN
+
+
+[general]
+RemoteNickFormat="{NICK} ({BRIDGE}): "
+
+[[gateway]]
+name = "openoakland"
+enable = true
+[[gateway.inout]]
+account = "slack.openoakland"
+channel = "openoakland-cfa"
+[[gateway.inout]]
+account = "slack.cfa"
+channel = "b-openoakland-cfa"
