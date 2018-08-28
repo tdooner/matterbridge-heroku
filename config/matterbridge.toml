@@ -15,7 +15,7 @@ name = "openoakland"
 enable = true
 [[gateway.inout]]
 account = "slack.openoakland"
-channel = "openoakland-cfa"
+channel = "code-for-america"
 [[gateway.inout]]
 account = "slack.cfa"
 channel = "b-openoakland-cfa"
