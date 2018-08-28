@@ -26,3 +26,11 @@ Archivers Slack teams.
 * Required envvars:
   * `MATTERBRIDGE_VERSION`. Use a [matterbridge git tag][git-tags].
   * `MATTERBRIDGE_SLACK_<team name>_TOKEN`. See [_Slack bot setup_ documentation][bot-setup].
+
+## Setup
+```bash
+cp .env.example .env
+# [fill in .env file with credentials]
+heroku create
+heroku config:set $(cat .env)
+```
