@@ -35,4 +35,5 @@ heroku create
 heroku config:set $(cat .env)
 heroku buildpacks:add http://github.com/tdooner/matterbridge-heroku
 heroku ps:scale worker=1
+heroku dyno:type worker=hobby
 ```
