@@ -1,1 +1,1 @@
-worker: matterbridge -conf config/matterbridge.toml
+worker: ./matterbridge -conf config/matterbridge.toml
