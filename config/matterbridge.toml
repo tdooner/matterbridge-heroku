@@ -1,11 +1,10 @@
 [slack]
-ShowTopicChange = true    # Send a message when the Channel's topic is changed.
-
 [slack.cfa]
 Token = ""        # Override with MATTERBRIDGE_SLACK_CFA_TOKEN
 
 [slack.openoakland]
-Token = ""        # Override with MATTERBRIDGE_SLACK_OPENOAKLAND_TOKEN
+ShowTopicChange = true # Send a message when the Channel's topic is changed.
+Token = ""             # Override with MATTERBRIDGE_SLACK_OPENOAKLAND_TOKEN
 
 
 [general]
