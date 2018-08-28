@@ -33,4 +33,5 @@ cp .env.example .env
 # [fill in .env file with credentials]
 heroku create
 heroku config:set $(cat .env)
+heroku buildpacks:add http://github.com/tdooner/matterbridge-heroku
 ```
